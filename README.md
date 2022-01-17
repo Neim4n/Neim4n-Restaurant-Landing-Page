@@ -1,6 +1,6 @@
 # Restaurant-Landing-Page
 
-This landing page is suitable for any restaurant.Created 6 blocks that you can change as you like. Implemented site navigation, the ability to view the menu and send feedback or wishes from users. 
+Restaurant-Landing-Page is clean and modern responsive one-page HTML, made for Food & Restaurant related websites.
 
 ## Adaptive
 The site is fully adaptive for different resolutions:  
