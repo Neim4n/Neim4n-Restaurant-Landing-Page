@@ -374,7 +374,7 @@ body .pop-window span:after {
 }
 .wrapper .main .about .about__title .title-text:after {
   transform: scale(0.8);
-  content: url("img/Signature.png");
+  content: url("img/signature.png");
   position: absolute;
   bottom: -170px;
   right: -10px;
