@@ -290,6 +290,7 @@ body .pop-window span:after {
 .wrapper .main .specials .specials__rows {
   display: flex;
   flex-direction: column;
+  margin: 0 10%;
 }
 .wrapper .main .specials .specials__rows .special__rows-item {
   display: flex;
@@ -374,7 +375,7 @@ body .pop-window span:after {
 }
 .wrapper .main .about .about__title .title-text:after {
   transform: scale(0.8);
-  content: url("img/signature.png");
+  content: url("img/Signature.png");
   position: absolute;
   bottom: -170px;
   right: -10px;
@@ -595,6 +596,11 @@ body .pop-window span:after {
   object-fit: contain;
 }
 
+@media screen and (max-width: 1536px) {
+  .wrapper .main .specials .specials__rows {
+    margin: 0 0;
+  }
+}
 @media screen and (max-width: 1260px) {
   .wrapper .main .information {
     padding: 50px 35px 70px;
