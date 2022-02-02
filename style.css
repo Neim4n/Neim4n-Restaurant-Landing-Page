@@ -164,8 +164,8 @@ body .pop-window span:after {
 .wrapper .header {
   color: #3c3c3c;
   height: 970px;
-  background: url("img/header_bg.png") center center no-repeat;
   background-size: cover;
+  background: url("img/header_bg.png") no-repeat fixed center center;
   display: flex;
   flex-direction: column;
 }
@@ -488,8 +488,7 @@ body .pop-window span:after {
 .wrapper .footer .footer__container {
   display: flex;
   flex-direction: column;
-  background: url("img/fotter_bg.png") no-repeat;
-  background-position: right top;
+  background: url("img/fotter_bg.png") no-repeat fixed right top;
   background-size: cover;
 }
 .wrapper .footer .footer__content {
