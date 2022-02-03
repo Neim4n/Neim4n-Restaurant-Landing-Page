@@ -649,6 +649,9 @@ body .pop-window span:after {
   }
 }
 @media screen and (max-width: 1250px) {
+  .wrapper .header {
+    background-attachment: scroll;
+  }
   .wrapper .header .header__menu {
     padding-right: 10px;
   }
@@ -661,6 +664,9 @@ body .pop-window span:after {
   .wrapper .main .about .about__title .title-text {
     width: 400px;
     font-size: 20px;
+  }
+  .wrapper .footer .footer__container {
+    background-attachment: scroll;
   }
 }
 @media screen and (max-width: 1099.98px) {
