@@ -192,7 +192,7 @@ body .pop-window span:after {
   width: 100%;
   content: "";
   position: absolute;
-  transition: 0.4s ease;
+  transition: 0.3s ease;
   background: #3c3c3c;
 }
 .wrapper .header .header__menu .header__menu-icon span:after {
@@ -205,10 +205,12 @@ body .pop-window span:after {
   background: none;
 }
 .wrapper .header .header__menu .header__menu-icon.activate span:after {
+  height: 1.5px;
   top: 0;
   transform: rotate(45deg);
 }
 .wrapper .header .header__menu .header__menu-icon.activate span:before {
+   height: 1.5px;
   top: 0;
   transform: rotate(-45deg);
 }
