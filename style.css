@@ -192,7 +192,7 @@ body .pop-window span:after {
   width: 100%;
   content: "";
   position: absolute;
-  transition: 0.3s ease;
+  transition: 0.4s ease;
   background: #3c3c3c;
 }
 .wrapper .header .header__menu .header__menu-icon span:after {
@@ -205,12 +205,10 @@ body .pop-window span:after {
   background: none;
 }
 .wrapper .header .header__menu .header__menu-icon.activate span:after {
-  height: 1.5px;
   top: 0;
   transform: rotate(45deg);
 }
 .wrapper .header .header__menu .header__menu-icon.activate span:before {
-   height: 1.5px;
   top: 0;
   transform: rotate(-45deg);
 }
@@ -285,6 +283,7 @@ body .pop-window span:after {
 .wrapper .main .specials._active .specials__rows .row-item .row-item-picture {
   opacity: 1;
   transform: translate(0, 0);
+  box-shadow: 0 0 20px 0 #cecece;
 }
 .wrapper .main .specials .specials__container {
   display: flex;
@@ -317,11 +316,12 @@ body .pop-window span:after {
   width: 500px;
 }
 .wrapper .main .specials .specials__rows .row-item .row-item-picture {
+  box-shadow: 10px 0px 20px 10px #cecece;
   overflow: hidden;
   opacity: 0;
   transform: translate(-120%, 0);
   width: 50%;
-  transition: all 0.8s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 .wrapper .main .specials .specials__rows .row-item .row-item-information {
   z-index: 100;
@@ -395,7 +395,7 @@ body .pop-window span:after {
   position: relative;
 }
 .wrapper .main .about .about__title .title-text:after {
-  content: url("img/Signature.png");
+  content: url("img/signature.png");
   position: absolute;
   bottom: -226px;
   right: -10px;
@@ -895,5 +895,3 @@ body .pop-window span:after {
     font-size: 13px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
